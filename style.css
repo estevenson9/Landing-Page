@@ -13,7 +13,7 @@ body {
 .hero,
 .main-body,
 .quote-section,
-.cta-container,
+.cta-section,
 footer,
 header {
   padding: 0px 240px;
@@ -22,7 +22,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
 }
 .left-links {
   flex: 1;
@@ -41,7 +41,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
 }
 .hero-description {
   display: flex;
@@ -108,9 +108,18 @@ header {
   padding: 0;
 }
 .main-body {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
-
+.quote-section {
+  padding: 6rem 400px;
+}
+.quote-text {
+  margin: 0;
+}
+.quote-credit {
+  text-align: right;
+  margin: 0;
+}
 header,
 .hero,
 footer {
@@ -153,15 +162,31 @@ footer {
 .quote-credit {
   font-weight: bold;
 }
+.cta-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 
 .cta-container,
 .sign-up {
   background-color: #3882f6;
 }
+.cta-container {
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  flex-basis: 100%;
+  height: 100px;
+}
 
 .cta-head,
 .cta-description {
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .cta-description {
@@ -170,4 +195,15 @@ footer {
 
 .sign-up {
   border-color: white;
+  color: white;
+  border-radius: 5px;
+  padding: 0 1rem;
+  box-shadow: none;
+  background: none;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  color: white;
 }
